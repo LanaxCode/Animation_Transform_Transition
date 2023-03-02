@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+}
+section{
+    margin: 0 auto;
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div{
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.box1{
+    background-color: greenyellow;
+    animation: all 1s 0.1s infinite linear; 
+    animation-name: bounce;
+    /* animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+}
+
+.box2{
+    background-color: lightseagreen;
+    animation: all 1s 0.2s infinite ease-in-out; 
+    animation-name: bounce;
+}
+.box3{
+    background-color: yellow;
+    animation: all 1s 0.3s infinite ease-in-out; 
+    animation-name: bounce;
+}
+.box4{
+    background-color: tomato;
+    animation: all 1s 0.4s infinite ease-in-out; 
+    animation-name: bounce;
+}
+.box5{
+    background-color: plum;
+    animation: all 1s 0.5s  infinite ease-in-out; 
+    animation-name: bounce;
+}
+
+@keyframes bounce{
+
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    50% {
+        transform: translate(0px, -120px);
+    }
+
+    110% {
+        transform: translate(0px, 0px);
+    }
+}

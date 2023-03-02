@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+}
+
+div{
+    display: flex;
+    height: 100vh;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    animation: all 2000ms infinite;
+    animation-name: strobo;
+}
+
+.box2{
+    animation: all 1000ms infinite;
+    animation-name: strobo;
+}
+
+.box3{
+    animation: all 500ms infinite;
+    animation-name: strobo;
+}
+
+.box4{
+    animation: all 250ms infinite;
+    animation-name: strobo;
+}
+
+.box5{
+    animation: all 125ms infinite;
+    animation-name: strobo;
+}
+
+
+
+@keyframes strobo{
+
+    0%{
+        background-color:none;
+        color:black;
+    }
+
+    50%{
+        background-color:black;
+        color:white;
+    }
+
+    0%{
+        background-color:none;
+        color:black;
+    }
+
+    }
+

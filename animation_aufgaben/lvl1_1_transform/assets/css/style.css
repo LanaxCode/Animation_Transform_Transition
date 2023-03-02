@@ -1,0 +1,36 @@
+
+
+/* div{
+    width: 100px;
+    height: 100px;
+    background-color:  tomato;
+    border-radius: 10px;
+    margin: 300px;
+    transform-origin: bottom left ;
+    transition: transform 1s linear;
+    rotate: 0;
+}
+
+div:hover{
+    transform-origin: bottom left ;
+    transform: rotate(90deg);
+    width: 200px;
+    height: 200px;
+} */
+
+ div{
+    width: 100px;
+    height: 100px;
+    background-color:  tomato;
+    border-radius: 10px;
+    margin: 300px;
+    transition: all 1s linear;
+ }
+
+ div:active{
+    transform-origin: bottom left ;
+    transform: rotateZ(90deg);
+    width: 200px;
+    height: 200px;
+} 
+

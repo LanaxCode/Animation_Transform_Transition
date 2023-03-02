@@ -1,0 +1,15 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+
+}
+
+div {
+    transition: all 1s ease;
+}
+
+div:hover {
+
+    width: 700px;
+}

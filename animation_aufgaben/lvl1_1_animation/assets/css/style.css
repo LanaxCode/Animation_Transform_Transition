@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section a{
+    text-decoration: none;
+    color: black;
+}
+
+section img{
+    margin-top: 20px;
+    width: 50px;
+    animation-name: hop;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes hop {
+    0% {
+        transform: translate(0px, 0px);
+        opacity:0.1;
+    }
+
+    50% {
+        transform: translate(0px, 20px);        
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+        opacity:0.1;
+    }
+}
+
+
+
+
+section:nth-of-type(1){
+    background-color: tomato;
+}
+
+section:nth-of-type(2){
+    background-color: rgb(214, 208, 111);
+}
+
+section:nth-of-type(3){
+    background-color: aquamarine;
+}
+
+section:nth-of-type(3).arrow{
+    text-align: center;
+    margin: 0 auto;
+}
+
+
